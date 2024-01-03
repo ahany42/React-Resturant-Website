@@ -17,6 +17,7 @@
     position:fixed;
     width:100%;
     z-index: 999;
+  
 }
 .logo{
     width:5em;
@@ -53,7 +54,10 @@
 .navBarContainer{
     justify-content: space-around;
     display: flex;
-    
+    border-bottom: #acacac;
+    border-bottom-width:5px;
+    border-bottom-style:solid ;
+ 
    
 }
 .navBarText{
@@ -61,5 +65,10 @@
     font-size:1.6em;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
-  
+    cursor: pointer;
+}
+.test{
+    color:red;
+    font-size:35em
+    
 }

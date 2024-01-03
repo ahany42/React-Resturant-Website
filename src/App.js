@@ -1,5 +1,17 @@
 import logo from './assets/logo.png';
 import locationPin from './assets/location-pin.png';
+export default  function App() {
+  
+  return (
+    <div className="App">
+  
+       <NavBar/>
+        <Header/>
+   
+   
+    </div>
+  );
+}
 function Logo(){
 return <img src={logo} className="logo"/>
 }
@@ -21,21 +33,32 @@ function Header(){
   <div className="ResturantInfo"><ResturantInfo/></div>
   </div>
 }
+function NavBarText({text}){
+  return <a className="navBarText">{text}</a>
+}
 function NavBar(){
-  return <div className="navBarContainer">
-  <a className="navBarText">Home</a>
-  <a className="navBarText">About Us</a>
-  <a className="navBarText">Menu</a>
-  <a className="navBarText">Order</a>
-  </div>
+
+    return <div className=" navBarContainer">
+    <link to="/about"><NavBarText text="Home" /></link>
+     <NavBarText text="About Us" />
+     <NavBarText text="Menu" />
+   
+     
+     </div>
 }
-export default  function App() {
-  return (
-    <div className="App">
-      <NavBar/>
-     <Header/>
-    </div>
-  );
-}
+function HomePage(){
+  return<h1 className="test">h</h1>
+  }
+ 
+  function AboutUsPage(){
+    return<h1 className="test">5o</h1>
+  }
+  function MenuPage(){
+    return<h1 className="test">5o</h1>
+  }
+
+
+
+
 
 
