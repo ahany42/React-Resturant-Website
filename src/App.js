@@ -49,7 +49,7 @@ function NavBarText({text}){
 function NavBar(){
 
     return <div className=" navBarContainer">
-   <NavBarText text="Home" />
+     <NavBarText text="Home" />
      <NavBarText text="About Us" />
      <NavBarText text="Menu" />
    
@@ -65,13 +65,29 @@ return <div className="HomePageContainer">
   </section>
 <div className="mainsection">
 
-  <h3 className="mainimagecaption">Our signature pizza<br/><span>Master Cheif Resturant is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
+  <h3 className="mainimagecaption">Master Cheif Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
   <img className="mainimage"src={image1}/>
-  
-  </div>
-  
-  </div>
 
+  </div>
+  <section>
+    <h1 class="sectiontitle">Our Location</h1>
+  <div className="Map">
+   
+      <iframe
+        title="Restaurant Location"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27610.935230916544!2d31.323251092147!3d30.112312942894064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145815dcc3e4e599%3A0x6c67c22e4aa39206!2sHeliopolis%2C%20Al%20Matar%2C%20El%20Nozha%2C%20Cairo%20Governorate%204470351!5e0!3m2!1sen!2seg!4v1704391699821!5m2!1sen!2seg"
+        width="500"
+        height="500"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+  
+  </div>
+  
+  </section>
+  </div>
   }
  
   function AboutUsPage(){
