@@ -107,8 +107,9 @@
     display: flex;
 }
 .HomePageContainer{
-    background-image: url("assets/green-leaves-white-background.jpg");
+    background-image: url("assets/green-leaves-white-background.png");
     background-size:cover;
+    height:105em;
    
 }
 .Map{
@@ -128,4 +129,28 @@
     color:#313131;
     font-weight:bolder;
     font-size: 1.2em;
+    margin-bottom: 0;
+}
+.footersection{
+    margin-top:3em;
+}
+@media (max-width:1350px){
+    .mainimage{
+        width:15em;
+    }
+}
+@media (max-width:1250px){
+    .mainimage{
+        width:12em;
+    }
+    .mainimagecaption{
+        padding: 0.5em;
+        font-family: 'Lobster', sans-serif;
+        font-size: 2em;
+    }
+    .mainimagecaption>span{
+       
+        font-family: 'Poppins', sans-serif;
+        font-size:0.5em;
+    }
 }

@@ -3,7 +3,6 @@ import image1 from './assets/img1.png';
 import image2 from './assets/img2.jpg';
 import image3 from './assets/img3.jpg';
 import pizzaGif from './assets/pizza-ad.gif';
-
 import locationPin from './assets/location-pin.png';
 
 
@@ -69,7 +68,7 @@ return <div className="HomePageContainer">
   <img className="mainimage"src={image1}/>
 
   </div>
-  <section>
+  <section className="footersection">
     <h1 class="sectiontitle">Our Location</h1>
   <div className="Map">
    
