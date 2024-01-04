@@ -85,7 +85,13 @@ return <div className="HomePageContainer">
       ></iframe>
   
   </div>
+  <div className="footer">
+    <hr/>
+    <h6>&copy; All Copy Rights Reserved Master Cheif Resturant</h6>
+    <footer>
   
+</footer>
+    </div>
   </section>
   </div>
   }
