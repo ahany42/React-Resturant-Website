@@ -2,6 +2,8 @@ import logo from './assets/logo.png';
 import image1 from './assets/img1.png';
 import image2 from './assets/img2.jpg';
 import image3 from './assets/img3.jpg';
+import pizzaGif from './assets/pizza-ad.gif';
+
 import locationPin from './assets/location-pin.png';
 
 
@@ -57,9 +59,18 @@ function NavBar(){
 
 
 function HomePage(){
-return <div className="mainsection">
-  <h3>Our signature dish</h3>
-  <img className="mainimage"src={image1}/></div>
+return <div className="HomePageContainer">
+  <section className="pizzagifsection">
+  <img className="pizzagif"src={pizzaGif}/>
+  </section>
+<div className="mainsection">
+
+  <h3 className="mainimagecaption">Our signature pizza<br/><span>Master Cheif Resturant is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
+  <img className="mainimage"src={image1}/>
+  
+  </div>
+  
+  </div>
 
   }
  
