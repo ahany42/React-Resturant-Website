@@ -3,7 +3,8 @@ import image1 from './assets/img1.png';
 import image2 from './assets/img2.jpg';
 import image3 from './assets/img3.jpg';
 import pizzaGif from './assets/pizza-ad.gif';
-import locationPin from './assets/location-pin.png';
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
 
 
 
@@ -26,20 +27,19 @@ return <img src={logo} className="logo"/>
 function Title(){
   return <h1 className="name">Master Cheif Resturant</h1>
 }
-function ResturantInfo(){
-  return <div className="infoContainer">
-    <div className="locationInfo"><div className="Container"><img src={locationPin} className="locationIcon"/><h4>Cairo,Egypt</h4></div></div>
-    <div className="contactInfo"><div className="Container"><h4>+20 1062020784</h4></div></div>
+
+
+    
+    
   
 
-  </div>
-}
+
 function Header(){
   return <div className="headerContainer">
     <NavBar/>
   <div className="header">
     <Title/><Logo/></div>
-  <div className="ResturantInfo"><ResturantInfo/></div>
+ 
   </div>
 }
 function NavBarText({text}){
@@ -85,8 +85,13 @@ return <div className="HomePageContainer">
   
   </div>
   <div className="footer">
-    <hr/>
-    <h6>&copy; All Copy Rights Reserved Master Cheif Resturant</h6>
+    <h6 className="footercomp">+20 1062020784</h6>
+    <h6 className="footercomp">Heliopolis,Cairo,Egypt</h6>
+    <h6 className="footercomp">&copy; All Copy Rights Reserved Master Cheif Resturant</h6>
+     <div className="footercomp">
+     <FaGithub />
+     <FaLinkedin />
+     </div>
     <footer>
   
 </footer>
