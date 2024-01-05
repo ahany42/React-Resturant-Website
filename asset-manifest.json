@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-Resturant-Website/static/css/main.68932598.css",
+    "main.js": "/React-Resturant-Website/static/js/main.17bde20f.js",
+    "static/js/787.1937f22b.chunk.js": "/React-Resturant-Website/static/js/787.1937f22b.chunk.js",
+    "static/media/img1.png": "/React-Resturant-Website/static/media/img1.74d92c8ddde49c641346.png",
+    "static/media/pizza-ad.gif": "/React-Resturant-Website/static/media/pizza-ad.d43e0118bbbbc944a889.gif",
+    "static/media/green-leaves-white-background.png": "/React-Resturant-Website/static/media/green-leaves-white-background.3bb6425d0ef6c9a490b1.png",
+    "static/media/img2.jpg": "/React-Resturant-Website/static/media/img2.a0dc5a6ac5515ab415a8.jpg",
+    "static/media/logo.png": "/React-Resturant-Website/static/media/logo.6649fce9a7a134536916.png",
+    "index.html": "/React-Resturant-Website/index.html",
+    "main.68932598.css.map": "/React-Resturant-Website/static/css/main.68932598.css.map",
+    "main.17bde20f.js.map": "/React-Resturant-Website/static/js/main.17bde20f.js.map",
+    "787.1937f22b.chunk.js.map": "/React-Resturant-Website/static/js/787.1937f22b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68932598.css",
+    "static/js/main.17bde20f.js"
+  ]
+}
