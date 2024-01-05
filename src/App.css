@@ -86,7 +86,7 @@
 .HomePageContainer{
     background-image: url("assets/green-leaves-white-background.png");
     background-size:cover;
-    height:105em;
+    
    
 }
 .Map{
@@ -108,8 +108,8 @@
     color:#313131;
     font-weight:bolder;
     font-size: 1.5em;
-    margin-bottom: 0em;
-    padding:1em;
+    margin-bottom:0 em;
+    padding:0em;
    
 }
 .footercomp{
@@ -118,23 +118,48 @@
 .footersection{
     margin-top:2em;
 }
-@media (max-width:1350px){
-    .mainimage{
-        width:15em;
-    }
+.socialcontainer{
+    cursor:pointer;
 }
-@media (max-width:1250px){
+.socialcontainer>a{
+    color:#313131;
+    padding-right:0.5em;
+}
+
+@media (min-width:250px) and (max-width:650px) {
+    
+    .HomePageContainer{
+        padding-bottom:2em;
+        }
+        .mainsection{
+        padding-bottom: 10em;
+        }
+        .mainimage{
+            width:10px;
+        }
+}
+@media  (min-width:651px) and (max-width:1250px){
     .mainimage{
         width:12em;
     }
+    
     .mainimagecaption{
         padding: 0.5em;
         font-family: 'Lobster', sans-serif;
         font-size: 2em;
     }
+ 
     .mainimagecaption>span{
        
         font-family: 'Poppins', sans-serif;
         font-size:0.5em;
+    }
+}
+@media (min-width:1251px) and (max-width:1350px){
+    .mainimage{
+        width:15em;
+    }
+    .navBarText{
+        color:green;
     }
 }
