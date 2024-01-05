@@ -25,7 +25,7 @@
 .name{
     align-self: center;
     font-family: 'Lobster', sans-serif;
-    font-size:5em;
+    font-size:4em;
     color:#ffffff;
 }
 
@@ -75,7 +75,7 @@
     font-size:0.5em;
 }
 .pizzagif{
-   width:40%;
+   width:50%;
 
 }
 .pizzagifsection{
@@ -86,7 +86,7 @@
 .HomePageContainer{
     background-image: url("assets/green-leaves-white-background.png");
     background-size:cover;
-    
+    padding-bottom:2em;
    
 }
 .Map{
@@ -122,25 +122,61 @@
     cursor:pointer;
 }
 .socialcontainer>a{
-    color:#313131;
+    color:#1b1b1b;
     padding-right:0.5em;
+    
 }
 
-@media (min-width:250px) and (max-width:650px) {
-    .navBarText{
-        color: rgb(20, 87, 212);
+ @media (max-width:280px){
+    .name{
+        text-align: center;
+    }
+   
+ }
+@media (max-width: 650px) {
+    .navBarText {
+        display: none;
     }
     .HomePageContainer{
-        padding-bottom:2em;
-        }
-        .mainsection{
-        padding-bottom: 10em;
-        }
-        .mainimage{
-            width:10px;
-        }
+        padding-bottom: 2em;
+    }
+   
+    .mainimage{
+        display: none;
+    }
+    .name{
+        font-size:2.1em;
+    }
+    .mainimagecaption{
+        font-size:1.5em;
+       
+    }
+    .mainimagecaption>span{
+        font-size:0.6em;
+       
+    }
+    .logo{
+        width: 4em;
+    }
+    .pizzagif{
+        width:70%;
+     
+     }
+     .pizzagifsection{
+         padding-top: 12em;
+         padding-bottom:2em;
+         justify-content: center;
+         display: flex;
+     }
+     .Map>iframe{
+        width:300px;
+        height:300px;
+        
+     }
 }
+
 @media  (min-width:651px) and (max-width:1250px){
+  
     .mainimage{
         width:12em;
     }
@@ -160,8 +196,5 @@
 @media (min-width:1251px) and (max-width:1350px){
     .mainimage{
         width:15em;
-    }
-    .navBarText{
-        color:green;
     }
 }
