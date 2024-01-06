@@ -1,7 +1,4 @@
 import logo from './assets/logo.png';
-import image1 from './assets/img1.png';
-import image2 from './assets/img2.jpg';
-import image3 from './assets/img3.jpg';
 import pizzaGif from './assets/pizza-ad.gif';
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -12,8 +9,6 @@ export default  function App() {
   
   return (
     <div className="App">
-       
-    
         <Header />
         <HomePage/>
    
@@ -27,12 +22,6 @@ return <img src={logo} className="logo"/>
 function Title(){
   return <h1 className="name">Master Cheif Resturant</h1>
 }
-
-
-    
-    
-  
-
 
 function Header(){
   return <div className="headerContainer">
@@ -65,7 +54,7 @@ return <div className="HomePageContainer">
 <div className="mainsection">
 
   <h3 className="mainimagecaption">Master Cheif Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
-  <img className="mainimage"src={image1}/>
+ 
 
   </div>
   <section className="footersection">

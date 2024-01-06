@@ -61,9 +61,7 @@
     margin-bottom: 10em;
  
 }
-.mainimage{
-    width:20em;
-}
+
 .mainimagecaption{
     padding: 1em;
     font-family: 'Lobster', sans-serif;
@@ -197,4 +195,23 @@
     .mainimage{
         width:15em;
     }
+}
+@media (min-width:2500px){
+    .mainimagecaption>span{
+        font-size:0.8em;
+    }
+    .sectiontitle{
+        font-size:3em;
+    }
+    .Map>iframe{
+        width:500px;
+        height:500px;
+        
+     }
+     .footer{
+        font-size: 2em;
+     }
+     .name{
+        font-size: 5em;
+     }
 }
