@@ -82,55 +82,56 @@ return <div className="HomePageContainer">
       ></iframe>
   
   </div>
+  <Footer/>
   </section>
   </div>
   }
-function PlateContainer(){
+function PlateContainer({productName,productInfo,productPrice}){
   return <div className="PlateContainer">
-      <h6 className="PlateTitle">Margerita</h6>
+      <h6 className="PlateTitle">{productName}</h6>
       <hr/>
       <div className="PlateImageContainer">
       <img className="PlateImage"src={img1}/>
       </div>
       <div className="PlateInfo">
-        <h2 className="PlateDescription">Lorem ispum Lorem ispum Lorem ispum</h2>
-        <h4 className="PlatePrice">250LE</h4>
+        <h2 className="PlateDescription">{productInfo}</h2>
+        <h4 className="PlatePrice">{productPrice}</h4>
       </div>
       </div>
 }
+
   function MenuPage(){
   return <div className="MenuPage">
     <div className="MenuSection">
       <h1 className="SectionTitle">Pizzas</h1>
       <div className="CategoryContainer">
-      <PlateContainer  />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
+      <PlateContainer productName="Pizza" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE"/>
     
       </div>
     </div>
     <div className="MenuSection">
       <h1 className="SectionTitle">Pastas</h1>
       <div className="CategoryContainer">
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      <PlateContainer />
-      
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
       </div>
     </div>
-    <Footer/>
+  
   </div>
   }
 
