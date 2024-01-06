@@ -20,7 +20,7 @@ function Logo(){
 return <img src={logo} className="logo"/>
 }
 function Title(){
-  return <h1 className="name">Master Cheif Resturant</h1>
+  return <h1 className="name">Master Chief Resturant</h1>
 }
 
 function Header(){
@@ -43,14 +43,27 @@ function NavBar(){
      </div>
 }
 
-
+function Footer(){
+  return <div className="footer">
+    <h6 className="footercomp">+20 1062020784</h6>
+    <h6 className="footercomp">Heliopolis,Cairo,Egypt</h6>
+    <h6 className="footercomp">&copy; All Copy Rights Reserved Master Cheif Resturant</h6>
+     <div className="socialcontainer">
+     <a href="https://github.com/ahany42/" target="_blank"><FaGithub /></a>
+     <a href="https://www.linkedin.com/in/aly-hany-261275219/" target="_blank"><FaLinkedin /></a>
+     <a href="mailto:ahanyfathy42@gmail.com" target="_blank"><IoMdMail /></a>
+   
+     </div>
+    
+    </div>
+}
 function HomePage(){
 return <div className="HomePageContainer">
   <section className="pizzagifsection">
   <img className="pizzagif"src={pizzaGif}/>
   </section>
 <div className="mainsection">
-  <h3 className="mainimagecaption">Master Cheif Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
+  <h3 className="mainimagecaption">Master Chief Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
  
   </div>
   <section className="footersection">
@@ -69,20 +82,6 @@ return <div className="HomePageContainer">
       ></iframe>
   
   </div>
-  <div className="footer">
-    <h6 className="footercomp">+20 1062020784</h6>
-    <h6 className="footercomp">Heliopolis,Cairo,Egypt</h6>
-    <h6 className="footercomp">&copy; All Copy Rights Reserved Master Cheif Resturant</h6>
-     <div className="socialcontainer">
-     <a href="https://github.com/ahany42/" target="_blank"><FaGithub /></a>
-     <a href="https://www.linkedin.com/in/aly-hany-261275219/" target="_blank"><FaLinkedin /></a>
-     <a href="mailto:ahanyfathy42@gmail.com" target="_blank"><IoMdMail /></a>
-   
-     </div>
-    <footer>
-  
-</footer>
-    </div>
   </section>
   </div>
   }
@@ -104,13 +103,16 @@ function PlateContainer(){
     <div className="MenuSection">
       <h1 className="SectionTitle">Pizzas</h1>
       <div className="CategoryContainer">
+      <PlateContainer  />
       <PlateContainer />
       <PlateContainer />
       <PlateContainer />
       <PlateContainer />
       <PlateContainer />
-      
- 
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+    
       </div>
     </div>
     <div className="MenuSection">
@@ -121,9 +123,14 @@ function PlateContainer(){
       <PlateContainer />
       <PlateContainer />
       <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
       
       </div>
     </div>
+    <Footer/>
   </div>
   }
 
