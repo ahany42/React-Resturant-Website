@@ -3,6 +3,7 @@ import pizzaGif from './assets/pizza-ad.gif';
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import img1 from './assets/img1.png';
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 
 export default  function App() {
@@ -10,8 +11,7 @@ export default  function App() {
   return (
     <div className="App">
         <Header />
-        <HomePage/>
-   
+        <MenuPage />
    
     </div>
   );
@@ -38,9 +38,7 @@ function NavBar(){
 
     return <div className=" navBarContainer">
      <NavBarText text="Home" />
-     <NavBarText text="About Us" />
      <NavBarText text="Menu" />
-   
      
      </div>
 }
@@ -52,10 +50,8 @@ return <div className="HomePageContainer">
   <img className="pizzagif"src={pizzaGif}/>
   </section>
 <div className="mainsection">
-
   <h3 className="mainimagecaption">Master Cheif Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
  
-
   </div>
   <section className="footersection">
     <h1 class="sectiontitle">Our Location</h1>
@@ -90,12 +86,45 @@ return <div className="HomePageContainer">
   </section>
   </div>
   }
- 
-  function AboutUsPage(){
-    
-  }
+function PlateContainer(){
+  return <div className="PlateContainer">
+      <h6 className="PlateTitle">Margerita</h6>
+      <hr/>
+      <div className="PlateImageContainer">
+      <img className="PlateImage"src={img1}/>
+      </div>
+      <div className="PlateInfo">
+        <h2 className="PlateDescription">Lorem ispum Lorem ispum Lorem ispum</h2>
+        <h4 className="PlatePrice">250LE</h4>
+      </div>
+      </div>
+}
   function MenuPage(){
-
+  return <div className="MenuPage">
+    <div className="MenuSection">
+      <h1 className="SectionTitle">Pizzas</h1>
+      <div className="CategoryContainer">
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      
+ 
+      </div>
+    </div>
+    <div className="MenuSection">
+      <h1 className="SectionTitle">Pastas</h1>
+      <div className="CategoryContainer">
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      <PlateContainer />
+      
+      </div>
+    </div>
+  </div>
   }
 
 
