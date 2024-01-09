@@ -11,7 +11,8 @@ export default  function App() {
   return (
     <div className="App">
         <Header />
-        <MenuPage />
+        <HomePage/>
+        {/* <MenuPage /> */}
    {/* <AboutUsPage/> */}
     </div>
   );
@@ -28,15 +29,28 @@ function Header(){
     <NavBar/>
   <div className="header">
     <Title/><Logo/></div>
- 
+    <SubNavBar/>
   </div>
 }
 function NavBarText({text}){
   return <a className="navBarText">{text}</a>
 }
+function SubNavBarText({text}){
+  return <a className="subNavBarText">{text}</a>
+}
+function SubNavBar(){
+  return <div className=" subNavBarContainer">
+     
+     <SubNavBarText text="searchicon"/>
+      <SubNavBarText className="likeicon" text="likeicon" />
+     <SubNavBarText text="deliveryicon" />
+     </div>
+    
+}
 function NavBar(){
 
     return <div className=" navBarContainer">
+    
      <NavBarText text="Home"/>
      <NavBarText text="Menu" />
      <NavBarText text="Order" />
@@ -138,8 +152,18 @@ function PlateContainer({productName,productInfo,productPrice}){
 function OrderPage(){
   
 }
-function HomePage(){
 
+function HomePage(){
+return <div className="HomePageContainer">
+  <div className="HeroSection">
+    <div className="HeroSectionContainer">
+      
+      <div className="HeroSectionSubContainer">
+        
+      </div>
+    </div>
+  </div>
+</div>
 }
 
 

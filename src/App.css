@@ -31,6 +31,17 @@
     color:#ffffff;
    
 }
+.subNavBarContainer{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-left: auto;
+    margin-right:0;
+    width:20%;
+   
+}
+
 
 .navBarContainer{
     justify-content: space-around;
@@ -81,7 +92,7 @@
     justify-content: center;
     display: flex;
 }
-.HomePageContainer{
+.AboutUsContainer{
     background-image: url("assets/green-leaves-white-background.png");
     background-size:cover;
     padding-bottom:2em;
@@ -194,6 +205,9 @@ brightness:80%;
     transform: translateY(3px);
   }
  
+ .HomePageContainer{
+    padding-top:10em;
+ }
  
  @media (max-width:280px){
     .name{
