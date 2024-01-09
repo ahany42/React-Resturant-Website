@@ -227,6 +227,9 @@
     width:80%;
     height:45em;
     background-color: rgb(228, 216, 149);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   
    
  }
@@ -249,7 +252,13 @@
     display: flex;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    
+    cursor: pointer;
+    margin-bottom: 1em;
+ }
+ .ordernow:hover{
+    background-color: #000000;
+    color:white;
+    transition:linear 2s;
  }
  .desccontainer{
     display: flex;
