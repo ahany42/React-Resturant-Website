@@ -92,7 +92,7 @@
     justify-content: center;
     display: flex;
 }
-.AboutUsContainer{
+.AboutUsPageContainer{
     background-image: url("assets/green-leaves-white-background.png");
     background-size:cover;
     padding-bottom:2em;
