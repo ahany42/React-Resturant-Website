@@ -11,9 +11,9 @@ export default  function App() {
   return (
     <div className="App">
         <Header />
-        <HomePage className="Homepage"/>
+        {/* <HomePage className="Homepage"/> */}
         {/* <MenuPage /> */}
-   {/* <AboutUsPage/> */}
+   <AboutUsPage/>
     </div>
   );
 }
@@ -102,7 +102,7 @@ return <div className="AboutUsPageContainer">
   </div>
   }
 function PlateContainer({productName,productInfo,productPrice}){
-  return <div className="PlateContainer">
+  return <div className="PlateCardContainer">
       <h6 className="PlateTitle">{productName}</h6>
       <hr/>
       <div className="PlateImageContainer">
@@ -146,7 +146,20 @@ function PlateContainer({productName,productInfo,productPrice}){
       <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
       </div>
     </div>
-  
+    <div className="MenuSection">
+      <h1 className="SectionTitle">Desserts</h1>
+      <div className="CategoryContainer">
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      <PlateContainer productName="Pasta" productInfo="Lorem ispum Lorem ispum Lorem ispum" productPrice="250 LE" />
+      </div>
+    </div>
   </div>
   }
 function OrderPage(){

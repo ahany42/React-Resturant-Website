@@ -149,7 +149,7 @@
 
 }
 
-.PlateContainer{
+.PlateCardContainer{
     width:7em;
     height: 10em;
     background-color: #ffffff;
@@ -158,11 +158,11 @@
     border-color: #000000;
     border-width:2px;
     margin-right: 1em;
-   
+    cursor: pointer;
 }
-/* .PlateContainer::hover{
-brightness:80%;
-} */
+.PlateCardContainer:hover{
+    opacity: 80%;
+}
 .PlateTitle{
     text-align: center;
 }
@@ -204,9 +204,9 @@ brightness:80%;
 .PlateContainer:active {
     transform: translateY(3px);
   }
- .Homepage{
+ /* .Homepage{
     overflow-y: hidden;
- }
+ } */
  .HomePageContainer{
     padding-top:5em;
   
