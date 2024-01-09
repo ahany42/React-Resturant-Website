@@ -11,9 +11,9 @@ export default  function App() {
   return (
     <div className="App">
         <Header />
-        {/* <HomePage className="Homepage"/> */}
+        <HomePage className="Homepage"/>
         {/* <MenuPage /> */}
-   <AboutUsPage/>
+   {/* <AboutUsPage/> */}
     </div>
   );
 }
@@ -171,7 +171,14 @@ return <div className="HomePageContainer">
   <div className="HeroSection">
     <div className="HeroSectionContainer">
       <div className="HeroSectionSubContainer">
-        
+        <h1 className="HeroSectionCaption">Order Now the finest pizza in town</h1>
+      <div className="desccontainer">
+      <img className="HeroSectionimg" src={img1}/>
+      <h5 className="mainimagecaption">Master Chief Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h5>
+      </div>
+      <div className="ordernowcontainer">
+      <h3 className="ordernow">Order Now!</h3>
+      </div>
       </div>
     </div>
   </div>
