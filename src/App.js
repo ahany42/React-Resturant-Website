@@ -12,7 +12,7 @@ export default  function App() {
     <div className="App">
         <Header />
         <MenuPage />
-   
+   {/* <AboutUsPage/> */}
     </div>
   );
 }
@@ -37,9 +37,10 @@ function NavBarText({text}){
 function NavBar(){
 
     return <div className=" navBarContainer">
-     <NavBarText text="Home" />
+     <NavBarText text="Home"/>
      <NavBarText text="Menu" />
-     
+     <NavBarText text="Order" />
+     <NavBarText text="About Us" />
      </div>
 }
 
@@ -57,12 +58,12 @@ function Footer(){
     
     </div>
 }
-function HomePage(){
-return <div className="HomePageContainer">
+function AboutUsPage(){
+return <div className="AboutUsPageContainer">
   <section className="pizzagifsection">
   <img className="pizzagif"src={pizzaGif}/>
   </section>
-<div className="mainsection">
+<div className="AboutUsPageMainsection">
   <h3 className="mainimagecaption">Master Chief Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h3>
  
   </div>
@@ -134,9 +135,11 @@ function PlateContainer({productName,productInfo,productPrice}){
   
   </div>
   }
+function OrderPage(){
+  
+}
+function HomePage(){
 
-
-
-
+}
 
 
