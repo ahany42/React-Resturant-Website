@@ -11,7 +11,7 @@ export default  function App() {
   return (
     <div className="App">
         <Header />
-        <HomePage/>
+        <HomePage className="Homepage"/>
         {/* <MenuPage /> */}
    {/* <AboutUsPage/> */}
     </div>
@@ -157,7 +157,6 @@ function HomePage(){
 return <div className="HomePageContainer">
   <div className="HeroSection">
     <div className="HeroSectionContainer">
-      
       <div className="HeroSectionSubContainer">
         
       </div>

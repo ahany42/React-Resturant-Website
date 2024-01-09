@@ -204,9 +204,31 @@ brightness:80%;
 .PlateContainer:active {
     transform: translateY(3px);
   }
- 
+ .Homepage{
+    overflow-y: hidden;
+ }
  .HomePageContainer{
-    padding-top:10em;
+    padding-top:5em;
+  
+    
+ }
+ .HeroSectionContainer{
+    background-image: url("assets/green-leaves-white-background.png");
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60em;
+ 
+   
+ }
+ .HeroSectionSubContainer{
+   border-radius: 0.5em;
+    width:80%;
+    height:45em;
+    background-color: rgb(228, 216, 149);
+  
+   
  }
  
  @media (max-width:280px){
