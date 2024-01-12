@@ -7,15 +7,17 @@ import { PiShoppingBagOpenFill } from "react-icons/pi";
 import { BiSolidLike } from "react-icons/bi";
 import { FaSearch } from "react-icons/fa";
 import img1 from './assets/img1.png';
-<meta content="width=device-width, initial-scale=1" name="viewport" />
-
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 export default  function App() {
   
   return (
     <div className="App">
         <Header />
         {/* <HomePage className="Homepage"/> */}
-        <MenuPage />
+      
+         <MenuPage />
+         
+        
    {/* <AboutUsPage/> */}
     </div>
   );

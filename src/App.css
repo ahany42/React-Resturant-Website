@@ -5,7 +5,9 @@
   
     
 }
-
+.App{
+    height: auto;
+}
 .header{
     justify-content: center;
     display: flex;
@@ -89,7 +91,7 @@
     justify-content: center;
     display: flex;
 }
-.AboutUsPageContainer{
+.AboutUsPageContainer,.MenuPage{
     background-image: url("assets/green-leaves-white-background.png");
     background-size:cover;
     padding-bottom:2em;
@@ -145,7 +147,10 @@
 
 
 }
-
+.MenPage{
+    padding: 0;
+    margin:0;
+}
 .PlateCardContainer{
     width:7em;
     height: 10em;
@@ -323,9 +328,7 @@ padding-right: 1em;
    
  }
 @media (max-width: 650px) {
-    .navBarText {
-        display: none;
-    }
+  
     .HomePageContainer{
         padding-bottom: 2em;
     }
@@ -363,7 +366,11 @@ padding-right: 1em;
         
      }
 }
-
+@media (max-width:992px){
+    .navBarText {
+        display: none;
+    }
+}
 @media  (min-width:651px) and (max-width:1250px){
   
    
