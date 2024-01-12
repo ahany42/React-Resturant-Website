@@ -3,6 +3,9 @@ import pizzaGif from './assets/pizza-ad.gif';
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { PiShoppingBagOpenFill } from "react-icons/pi";
+import { BiSolidLike } from "react-icons/bi";
+import { FaSearch } from "react-icons/fa";
 import img1 from './assets/img1.png';
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 
@@ -11,8 +14,8 @@ export default  function App() {
   return (
     <div className="App">
         <Header />
-        <HomePage className="Homepage"/>
-        {/* <MenuPage /> */}
+        {/* <HomePage className="Homepage"/> */}
+        <MenuPage />
    {/* <AboutUsPage/> */}
     </div>
   );
@@ -38,12 +41,20 @@ function NavBarText({text}){
 function SubNavBarText({text}){
   return <a className="subNavBarText">{text}</a>
 }
+function SearchBar(){
+  return <div className="inputBox_container">
+  <svg className="search_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" alt="search icon">
+    <path d="M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z">
+    </path>
+  </svg>
+  <input className="inputBox" id="inputBox" type="text" placeholder="Search For Plates"/>
+</div>
+}
 function SubNavBar(){
   return <div className=" subNavBarContainer">
      
-     <SubNavBarText text="searchicon"/>
-      <SubNavBarText className="likeicon" text="likeicon" />
-     <SubNavBarText text="deliveryicon" />
+     <SubNavBarText text=<SearchBar/> />
+     
      </div>
     
 }
@@ -174,7 +185,7 @@ return <div className="HomePageContainer">
         <h1 className="HeroSectionCaption">Order Now the finest pizza in town</h1>
       <div className="desccontainer">
       <img className="HeroSectionimg" src={img1}/>
-      <h5 className="mainimagecaption">Master Chief Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h5>
+      <h5 className="HeroSectionPargraph">Master Chief Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h5>
       </div>
       <div className="ordernowcontainer">
       <h3 className="ordernow">Order Now!</h3>

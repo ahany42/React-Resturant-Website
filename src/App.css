@@ -32,13 +32,10 @@
    
 }
 .subNavBarContainer{
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
-    padding-left: 4em;
-    padding-right: 4em;
-    margin-left: auto;
-    margin-right:0;
-    width:20%;
+    padding-top: 0.5em;
+
    
 }
 
@@ -208,7 +205,7 @@
     overflow-y: hidden;
  } */
  .HomePageContainer{
-    padding-top:5em;
+    padding-top:7em;
   
     
  }
@@ -260,17 +257,62 @@
     color:white;
     transition:linear 2s;
  }
+ .HeroSectionPargraph{
+color: #000000;
+font-size: 1.5em;
+font-family: 'Lobster', sans-serif;
+padding-right: 1em;
+
+ }
+ .HeroSectionPargraph>span{
+    font-size: 0.7em;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+ }
  .desccontainer{
     display: flex;
     justify-content:space-between;
-   margin: auto;
+    margin: auto;
     align-items: center;
  }
  .ordernowcontainer{
     justify-content: center;
     display: flex;
  }
- 
+/* Search bar style */
+.inputBox_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 20em;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(228, 216, 149);
+    border-radius: 0.8em;
+    overflow: hidden;
+
+  }
+  
+  .search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #000000;
+  }
+  
+  .inputBox {
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+  }
+  
+  ::placeholder {
+    color: #000000;
+    font-weight: 600;
+  }
  @media (max-width:280px){
     .name{
         text-align: center;
