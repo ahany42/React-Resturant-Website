@@ -8,6 +8,9 @@ import { BiSolidLike } from "react-icons/bi";
 import { FaSearch } from "react-icons/fa";
 import { TiThMenu } from "react-icons/ti";
 import img1 from './assets/img1.png';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 export default  function App() {
   
@@ -16,10 +19,10 @@ export default  function App() {
         <Header />
         {/* <HomePage className="Homepage"/> */}
       
-         {/* <MenuPage />
-          */}
+         <MenuPage />
+         
         
-   <AboutUsPage/>
+   {/* <AboutUsPage/> */}
     </div>
   );
 }
@@ -33,7 +36,9 @@ function Title(){
 function Header(){
   return <div className="headerContainer">
     <NavBar/>
+ 
   <div className="header">
+
     <Title/><Logo/> </div>
     <SubNavBar/>
   </div>
