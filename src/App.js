@@ -8,23 +8,56 @@ import { BiSolidLike } from "react-icons/bi";
 import { FaSearch } from "react-icons/fa";
 import { TiThMenu } from "react-icons/ti";
 import img1 from './assets/img1.png';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import img3 from './assets/img3.jpg';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Carousel } from 'react-bootstrap';
 
+import './App.css';
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 export default  function App() {
   
   return (
     <div className="App">
         <Header />
-        {/* <HomePage className="Homepage"/> */}
+        <HomePage className="Homepage"/>
       
-         <MenuPage />
-         
-        
+         {/* <MenuPage /> */}
+       
    {/* <AboutUsPage/> */}
     </div>
   );
+}
+
+
+   
+function HomepageCarousel(){
+  return (  <Carousel className="Carousel" data-bs-theme="light">
+  <Carousel.Item>
+    <img 
+      className="Carouselimg"
+      src={img3}
+      alt="First slide"
+    />
+   
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="Carouselimg"
+      src={img3}
+      alt="Second slide"
+    />
+  
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="Carouselimg"
+      src={img3}
+      alt="Third slide"
+    />
+    
+  </Carousel.Item>
+</Carousel>
+    );
 }
 function Logo(){
 return <img src={logo} className="logo"/>
@@ -189,18 +222,12 @@ function HomePage(){
 return <div className="HomePageContainer">
   <div className="HeroSection">
     <div className="HeroSectionContainer">
-      <div className="HeroSectionSubContainer">
-        <h1 className="HeroSectionCaption">Order Now the finest pizza in town</h1>
-      <div className="desccontainer">
-      <img className="HeroSectionimg" src={img1}/>
-      <h5 className="HeroSectionPargraph">Master Chief Resturant<br/><span> is more than just a place to savor exquisite Italian cuisine. It's a hub of community and celebration, where friends and families gather to create cherished memories. Our welcoming staff strives to provide unparalleled hospitality, ensuring your visit is a journey of flavors and warmth</span></h5>
-      </div>
-      <div className="ordernowcontainer">
-      <h3 className="ordernow">Order Now!</h3>
-      </div>
-      </div>
+    
+      <HomepageCarousel className="HomePageCarousel"/>
+    
     </div>
   </div>
+  
 </div>
 }
 

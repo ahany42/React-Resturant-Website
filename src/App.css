@@ -226,65 +226,16 @@
  
    
  }
- .HeroSectionSubContainer{
-   border-radius: 0.5em;
-    width:80%;
-    height:45em;
-    background-color: rgb(228, 216, 149);
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  
-   
- }
- .HeroSectionCaption{
-    font-family: 'Lobster', sans-serif;
-    text-align: center;
-    padding-top: 1em;
- }
- .HeroSectionimg{
-    width:25em;
-    align-items: center;
-    display: flex;
- }
- .ordernow{
-    padding: 1em;
-    border-style: solid;
-    border-width: 4px;
-    width:8em;
-    height:2em;
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    margin-bottom: 1em;
- }
- .ordernow:hover{
-    background-color: #000000;
-    color:white;
-    transition:linear 2s;
- }
- .HeroSectionPargraph{
-color: #000000;
-font-size: 1.5em;
-font-family: 'Lobster', sans-serif;
-padding-right: 1em;
+ .Carouselimg{
+ width:100%;
 
  }
- .HeroSectionPargraph>span{
-    font-size: 0.7em;
-    color: rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif;
- }
- .desccontainer{
-    display: flex;
-    justify-content:space-between;
-    margin: auto;
-    align-items: center;
- }
- .ordernowcontainer{
-    justify-content: center;
-    display: flex;
+ .Carousel{
+  
+    width:100%;
+    
+   
+    
  }
 /* Search bar style */
 .inputBox_container {
