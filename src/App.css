@@ -226,17 +226,45 @@
  
    
  }
- .Carouselimg{
- width:100%;
 
- }
  .Carousel{
-  
-    width:100%;
-    
-   
-    
+    width:100%;  
  }
+ .CarouselContent{
+    background-color: rgb(228, 216, 149);
+    height:fit-content;
+    padding-bottom:2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .CarouselContainer{
+    margin-top: 2em;
+  
+ }
+ .CarouselTitle{   
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    font-size:2em;
+ }
+ .Carouselimg{
+    width:30%;
+ }
+ .CarouselImgContainer{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+ }
+ .buttonContainer{
+  margin: auto;
+  margin-bottom: 2em;
+ }
+ .carousel-control-next, .carousel-control-prev {
+   font-weight:bolder;
+   scale:150%;
+  
+    }
 /* Search bar style */
 .inputBox_container {
     display: flex;
@@ -245,7 +273,7 @@
     max-width: 20em;
     width: fit-content;
     height: fit-content;
-    background-color: rgb(228, 216, 149);
+    background-color: transparent;
     border-style: solid;
     border-width: 3px;
     border-color:white;
@@ -272,7 +300,8 @@
   
   ::placeholder {
     color: #000000;
-    font-weight: 600;
+    font-weight: 700;
+
   }
  @media (max-width:280px){
     .name{
