@@ -14,13 +14,13 @@ export default  function App() {
     <div className="App">
          <Header />
         <div>
-        {/* <HomePage className="Homepage"/> */}
+        <HomePage className="Homepage"/>
         </div>
        <div >
        {/* <MenuPage /> */}
        </div>
           <div>
-        <AboutUsPage/>  
+        {/* <AboutUsPage/>   */}
           </div>
          
     </div>

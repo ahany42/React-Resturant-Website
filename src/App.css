@@ -235,6 +235,15 @@
     
 
  }
+ .CarouselCaption{
+    padding:1em;
+    padding-right:1.5em;
+    font-size:2em;
+    line-height: 1.5em;
+ }
+ .MobileCarouselContainer{
+  display: none;
+ }
  .CarouselContainer{
     margin-top: 15em;
     margin-bottom: 0;
@@ -345,6 +354,7 @@
         height:300px;
         
      }
+    
 }
 @media (max-width:992px){
     .navBarText {
@@ -357,8 +367,35 @@
        border-radius: 1.5em;
     
     }
- 
- 
+    .CarouselContainer{
+        display: none;
+      }
+      .MobileCarouselContainer{
+        display: flex;
+        flex-direction: column;
+      }
+      .MobileCarouselImgContainer{
+      display: flex;
+      flex-direction: column;
+    
+      }
+      .MobileCarouselimg{
+        width:50%;
+        margin: auto;
+        padding-bottom: 2em;
+      }
+      .MobileCarouselTitle{
+        padding-bottom:2em;
+        padding-top: 4em;
+        text-align: center;
+        font-family: 'Lobster', sans-serif;
+        
+        
+      }
+      .MobileCarouselCaption{
+        padding:1em;
+        text-align: center;
+      }
 }
 @media  (min-width:651px) and (max-width:1250px){
   
