@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
   
-    
 }
 .App{
-    height: auto;
+    height:fit-content;
+    
 }
 .header{
     justify-content: center;
@@ -211,19 +211,14 @@
     transform: translateY(3px);
   }
 
- .HomePageContainer{
-    padding-top:7em;
-  
-    
- }
+
  .HeroSectionContainer{
-    background-image: url("assets/green-leaves-white-background.png");
+    /* background-image: url("assets/green-leaves-white-background.png"); */
     background-size:cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60em;
- 
    
  }
 
@@ -237,9 +232,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
+
  }
  .CarouselContainer{
-    margin-top: 2em;
+    margin-top: 15em;
+    margin-bottom: 0;
   
  }
  .CarouselTitle{   
@@ -276,7 +274,7 @@
     background-color: transparent;
     border-style: solid;
     border-width: 3px;
-    border-color:white;
+    border-color:rgb(0, 0, 0);
     border-radius: 0.8em;
     overflow: hidden;
 

@@ -21,20 +21,10 @@ return <div className="CarouselContent">
 function HomepageCarousel(){
     return (  <Carousel className="Carousel" data-bs-theme="dark">
     <Carousel.Item>
-      <img 
-       
-        src={img3}
-        alt="First slide"
-      />
-  
+    <HomeCarouselContent caption="We believe in quality, and that starts with our ingredients. Savor the goodness of locally-sourced, fresh produce and premium cheeses that elevate our pizzas to a whole new level." title="Order The Best Pizza In Town" img={img1}/>
     </Carousel.Item>
     <Carousel.Item>
-      <img
-      
-        src={img3}
-        alt="Second slide"
-      />
-  
+    <HomeCarouselContent caption="We believe in quality, and that starts with our ingredients. Savor the goodness of locally-sourced, fresh produce and premium cheeses that elevate our pizzas to a whole new level." title="Order The Best Pizza In Town" img={img1}/>
     </Carousel.Item>
     <Carousel.Item>
     <HomeCarouselContent caption="We believe in quality, and that starts with our ingredients. Savor the goodness of locally-sourced, fresh produce and premium cheeses that elevate our pizzas to a whole new level." title="Order The Best Pizza In Town" img={img1}/>

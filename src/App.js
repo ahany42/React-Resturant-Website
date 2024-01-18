@@ -15,10 +15,8 @@ export default  function App() {
         
         <Header />
         <HomePage className="Homepage"/>
-         
-         {/* <MenuPage /> */}
-       
-   {/* <AboutUsPage/>  */}
+          {/* <MenuPage /> */}
+          {/* <AboutUsPage/>   */}
     </div>
   );
     
