@@ -21,7 +21,7 @@ return <div className="CarouselContent">
   </div>
 </div>
 <div className="buttonContainer">
-<button type="button" class="btn btn-outline-dark">Order Now</button>
+<button type="button" class="btn btn-dark">Order Now</button>
 </div>
 </div>
 }
