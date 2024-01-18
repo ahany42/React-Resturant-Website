@@ -226,7 +226,7 @@
     width:100%;  
  }
  .CarouselContent{
-    background-color: rgb(228, 216, 149);
+    background-color: rgb(219, 218, 218);
     height:fit-content;
     padding-bottom:2em;
     display: flex;
@@ -391,9 +391,9 @@
         padding-bottom: 5em;
       }
       .MobileCarouselTitle{
-        padding-bottom:4em;
-        padding-top: 25em;
-        font-size: 3em;
+        padding-bottom:5em;
+        padding-top: 12em;
+        font-size: 1.5em;
         font-weight: 800;
         text-align: center;
         font-family: 'Lobster', sans-serif;
@@ -403,13 +403,13 @@
       .MobileCarouselCaption{
         padding:1em;
         text-align: center;
-        font-size: 3em;
+        font-size: 1em;
         padding-bottom: 3em;
       }
       .btn-dark{
-        padding-bottom: 7em;
+       
         width:12em;
-        height:4em;
+        height: 4em;
 
       }
 }

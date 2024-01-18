@@ -1,6 +1,4 @@
 import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
 import pizza from './assets/img1.png';
 import pasta from './assets/pasta.png';
 function HomeCarouselContent({img,title,caption}){
