@@ -30,6 +30,7 @@ function SearchBar(){
   </svg>
   <input className="inputBox" id="inputBox" type="text" placeholder="Search For Plates"/>
 </div>
+
 }
 function SubNavBar(){
   return <div className=" subNavBarContainer">

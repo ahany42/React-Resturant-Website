@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Header from './Header.js';
 import MenuPage from './MenuPage.js';
@@ -13,15 +13,15 @@ export default  function App() {
    
     <div className="App">
          <Header />
-        <div>
-        <HomePage className="Homepage"/>
-        </div>
-       <div >
+      
+        {/* <HomePage className="Homepage"/> */}
+        
+      
        {/* <MenuPage /> */}
-       </div>
-          <div>
-        {/* <AboutUsPage/>   */}
-          </div>
+    
+          
+        <AboutUsPage/>  
+          
          
     </div>
   );

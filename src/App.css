@@ -41,6 +41,8 @@
     justify-content: center;
     display: flex;
     padding-top: 0.5em;
+    width:100%;
+    background-color: rgb(219, 218, 218);
 
    
 }
@@ -151,9 +153,10 @@
 
 
 }
-.MenPage{
+.MenuPage{
     padding: 0;
     margin:0;
+    padding-top: 3em;
 }
 .PlateCardContainer{
     width:7em;
