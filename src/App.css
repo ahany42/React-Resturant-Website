@@ -298,7 +298,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 15em;
+    width: 20em;
     width: fit-content;
     height: fit-content;
     background-color: transparent;
@@ -387,7 +387,7 @@
     .inputBox_container {
         display: flex;
         flex-direction: row;
-        width: 12em;
+        width: 13em;
     }
     .MobileNavicon{
         display: flex;

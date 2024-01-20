@@ -17,10 +17,10 @@ export default  function App() {
         {/* <HomePage className="Homepage"/> */}
         
       
-       {/* <MenuPage /> */}
+       <MenuPage />
     
           
-        <AboutUsPage/>  
+        {/* <AboutUsPage/>   */}
           
          
     </div>

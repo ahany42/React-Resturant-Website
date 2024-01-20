@@ -1,5 +1,5 @@
 import { Carousel } from 'react-bootstrap';
-import pizza from './assets/img1.png';
+import pizza from './assets/sicilianaPizza.png';
 import pasta from './assets/pasta.png';
 import dessert from './assets/Dessert.png';
 function HomeCarouselContent({img,title,caption}){
