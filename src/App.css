@@ -445,21 +445,25 @@
     }
 }
 @media (min-width:1500px){
-      .btn-dark{
-         width: 8em;
-         height: 2.5em;
-         font-size: 2em;
-      }
+    .CarouselCaption{
+        font-size: 3em;
+        
+    }
+
 }
 @media (min-width:1000px){
-   
+    .btn-dark{
+        width: 8em;
+        height: 3em;
+        font-size: 1.5em;
+     }
     .CarouselTitle{
         padding-top:2em;
         font-size:4em ;
 
     }
     .CarouselCaption{
-        font-size: 3em;
+        font-size: 2em;
     }
 }
 @media (min-width:2000px){
@@ -469,7 +473,7 @@
 
     }
     .CarouselCaption{
-        font-size: 3em;
+        font-size: 4em;
     }
     .btn-dark{
         width:12em;
