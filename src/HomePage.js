@@ -19,7 +19,7 @@ return <div className="CarouselContent">
   </div>
 </div>
 <div className="buttonContainer">
-<button type="button" class="btn btn-dark">Order Now</button>
+<button type="button" className="btn btn-dark btn-md" style={{backgroundColor:"black"}}>Order Now</button>
 </div>
 </div>
 }

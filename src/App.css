@@ -254,6 +254,7 @@
     font-family: 'Lobster', sans-serif;
     text-align: center;
     font-size:2em;
+  
  }
  .Carouselimg{
     width:30%;
@@ -268,21 +269,18 @@
   margin: auto;
   margin-bottom: 2em;
  }
- .btn-dark{
-    width:8em;
-    height:3em;
- }
  .carousel-control-next, .carousel-control-prev {
    font-weight:bolder;
    scale:150%;
   
     }
 /* Search bar style */
+
 .inputBox_container {
     display: flex;
     align-items: center;
     flex-direction: row;
-    max-width: 20em;
+    width: 15em;
     width: fit-content;
     height: fit-content;
     background-color: transparent;
@@ -359,11 +357,19 @@
         height:300px;
         
      }
-    
+     .MobileCarouselTitle{
+        padding-bottom:5em;
+        padding-top: 10em;
+     }
 }
 @media (max-width:992px){
     .navBarText {
         display: none;
+    }
+    .inputBox_container {
+        display: flex;
+        flex-direction: row;
+        width: 12em;
     }
     .MobileNavicon{
         display: flex;
@@ -391,8 +397,6 @@
         padding-bottom: 5em;
       }
       .MobileCarouselTitle{
-        padding-bottom:5em;
-        padding-top: 12em;
         font-size: 1.5em;
         font-weight: 800;
         text-align: center;
@@ -430,11 +434,22 @@
         font-family: 'Poppins', sans-serif;
         font-size:0.5em;
     }
+    .MobileCarouselTitle{
+     padding-bottom:5em;
+     padding-top: 18em;
+    }
 }
 @media (min-width:1251px) and (max-width:1350px){
     .mainimage{
         width:15em;
     }
+}
+@media (min-width:1500px){
+      .btn-dark{
+         width: 8em;
+         height: 2.5em;
+         font-size: 2em;
+      }
 }
 @media (min-width:1000px){
    
