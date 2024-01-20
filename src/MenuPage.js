@@ -51,7 +51,7 @@ function MenuPage(){
         <PlateContainer productName="Cannoli" productInfo="Crispy pastry tubes filled with a sweet ricotta cheese filling" productPrice="250 LE" />
         <PlateContainer productName="Gelato" productInfo="Gelato comes in a variety of flavors" productPrice="250 LE" />
         <PlateContainer productName="Chocolate Cake" productInfo="Vanilla,Eggs,Milk and hot Chocolate sauce" productPrice="250 LE" />
-        <PlateContainer productName="Cheesecake" productInfo="Cream cheese, sugar, and eggs topped with jam or chocolate" productPrice="250 LE" />
+        <PlateContainer productName="Cheesecake" productInfo="Cream cheese, sugar, and eggs topped with jam." productPrice="250 LE" />
         <PlateContainer productName="Éclairs" productInfo="choux dough,filled with cream ,and topped with chocolate " productPrice="250 LE" />
         <PlateContainer productName="Tres Leches Cake" productInfo="A sponge cake soaked in milk topped with choclate" productPrice="250 LE" />
         <PlateContainer productName="Churros" productInfo="Served with chocolate sauce or dulce de leche." productPrice="250 LE" />
