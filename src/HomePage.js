@@ -1,6 +1,7 @@
 import { Carousel } from 'react-bootstrap';
 import pizza from './assets/img1.png';
 import pasta from './assets/pasta.png';
+import dessert from './assets/Dessert.png';
 function HomeCarouselContent({img,title,caption}){
 return <div className="CarouselContent">
   <div className="CarouselContainer">
@@ -32,7 +33,7 @@ function HomepageCarousel(){
     <HomeCarouselContent caption="Our pasta menu is a celebration of authenticity, offering a diverse range of pasta shapes and sauces that cater to every craving." title="Order The Finest Pasta In Town" img={pasta}/>
     </Carousel.Item>
     <Carousel.Item>
-    <HomeCarouselContent caption="We believe in quality, and that starts with our ingredients. Savor the goodness of locally-sourced, fresh produce and premium cheeses that elevate our pizzas to a whole new level." title="Order The Best Pizza In Town" img={pasta}/>
+    <HomeCarouselContent caption="Dive into a world of sweetness with our delectable desserts, where every bite is a delightful escape. From velvety chocolate creations to fruity indulgences, we promise to satisfy your cravings."title="Order The Sweetest Desserts In Town" img={dessert}/>
     </Carousel.Item>
   </Carousel>
       );
