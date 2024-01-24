@@ -1,7 +1,7 @@
 import { Carousel } from 'react-bootstrap';
-import pizza from './assets/sicilianaPizza.png';
-import pasta from './assets/pasta.png';
-import dessert from './assets/Dessert.png';
+import pizza from '../assets/sicilianaPizza.png';
+import pasta from '../assets/pasta.png';
+import dessert from '../assets/Dessert.png';
 function HomeCarouselContent({img,title,caption}){
 return <div className="CarouselContent">
   <div className="CarouselContainer">

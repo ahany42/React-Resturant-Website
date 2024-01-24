@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import Header from './Header.js';
-import MenuPage from './MenuPage.js';
-import AboutUsPage from './AboutUsPage.js';
-import HomePage from './HomePage.js';
+import Header from './Components/Header.js';
+import MenuPage from './Components/MenuPage.js';
+import AboutUsPage from './Components/AboutUsPage.js';
+import HomePage from './Components/HomePage.js';
 
 
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />

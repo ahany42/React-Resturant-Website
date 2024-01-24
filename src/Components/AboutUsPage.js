@@ -1,4 +1,4 @@
-import pizzaGif from './assets/pizza-ad.gif';
+import pizzaGif from '../assets/pizza-ad.gif';
 import Footer from './Footer.js';
   function AboutUsPage(){
   return <div className="AboutUsPageContainer">

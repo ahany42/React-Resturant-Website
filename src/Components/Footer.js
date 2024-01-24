@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import './App.css';
+import '../App.css';
 function Footer(){
     return <div className="footer">
       <h6 className="footercomp">+20 1062020784</h6>
