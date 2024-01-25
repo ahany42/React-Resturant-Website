@@ -1,3 +1,4 @@
+import { FaFilter } from "react-icons/fa6";
 import '../App.css';
 function SubNavBarText({text}){
     return <a className="subNavBarText">{text}</a>
@@ -14,9 +15,9 @@ function SubNavBarText({text}){
   }
   function SubNavBar(){
     return <div className=" subNavBarContainer">
-       
+  
        <SubNavBarText text=<SearchBar/> />
-       
+       <FaFilter  className="filtericon"/>
        </div>
       
   }

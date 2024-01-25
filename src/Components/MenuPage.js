@@ -26,6 +26,7 @@ import tresleches from'../assets/treslechesDessert.png';
 import churros from'../assets/churrosDessert.png';
 import moltencake from'../assets/moltencakeDessert.png';
 import SearchBar from'./SearchBar.js';
+
 import '../App.css';
 function PlateContainer({productName,productInfo,productPrice,img}){
     return <div className="PlateCardContainer">

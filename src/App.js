@@ -14,25 +14,9 @@ export default  function App() {
    
     <div className="App">
 
-      {/* <div>
-
-      <HomePage className="Homepage"/> 
-      </div> */}
-       
-       
-       <div>
-      <Header />
-      <MenuPage />
-      </div>  
-      
-     
-          {/* <ReservePage /> */}
-
-          {/* <div>
-          <Header />
-          <AboutUsPage/>   
-          </div> */}
-     
+    <Header /> 
+    {/* <ReservePage /> */}
+     <MenuPage />
          
     </div>
   );
