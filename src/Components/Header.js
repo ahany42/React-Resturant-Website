@@ -1,4 +1,5 @@
 import logo from '../assets/logo.png';
+import { TiThMenu } from "react-icons/ti";
 function Logo(){
 return <img src={logo} className="logo"/>
 }
@@ -21,12 +22,24 @@ function NavBarText({text}){
 
 function NavBar(){
 
-    return <div className=" navBarContainer">
-    
+    return <div>
+
+     <TiThMenu className="Menuicon"/>
+    <div className="navBarContainer" >
+    <MobileNavBar />
      <NavBarText text="Home"/>
      <NavBarText text="Menu" />
      <NavBarText text="Reserve" />
      <NavBarText text="About Us" />
      </div>
+     </div>
+}
+function MobileNavBar(){
+  return <div className="MobileNavBarContainer">
+    <a>Home</a>
+    <a>Menu</a>
+    <a>Reserve</a>
+    <a>About Us</a>
+  </div>
 }
 export default Header;
