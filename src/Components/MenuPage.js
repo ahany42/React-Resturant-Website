@@ -25,6 +25,7 @@ import eclairs from'../assets/eclairsDessert.png';
 import tresleches from'../assets/treslechesDessert.png';
 import churros from'../assets/churrosDessert.png';
 import moltencake from'../assets/moltencakeDessert.png';
+import SearchBar from'./SearchBar.js';
 import '../App.css';
 function PlateContainer({productName,productInfo,productPrice,img}){
     return <div className="PlateCardContainer">
@@ -41,6 +42,7 @@ function PlateContainer({productName,productInfo,productPrice,img}){
   }
 function MenuPage(){
     return <div className="MenuPage">
+      <SearchBar />
       <div className="MenuSection">
         <h1 className="SectionTitle">Pizzas</h1>
         <div className="CategoryContainer">

@@ -44,8 +44,11 @@
     display: flex;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    margin-top: 2em;
     width:100%;
     background-color: rgb(219, 218, 218);
+    z-index: 999;
+    position:fixed;
 
    
 }
@@ -163,6 +166,7 @@
     padding: 0;
     margin:0;
     padding-top: 5em;
+  
     
 }
 .PlateCardContainer{
@@ -403,6 +407,8 @@
    .MobileCategoryContainer{
    display: flex;
    flex-direction: column;
+   justify-content:center;
+   margin: auto;
    margin-top: 0em;
    }
    .PlateCardContainer{
@@ -512,7 +518,11 @@
     .CarouselCaption{
         font-size: 2em;
     }
+    .subNavBarContainer{
+       margin-top: 4em;
+    }
 }
+
 @media (min-width:2000px){
     .CarouselTitle{
         padding-top:6em;
