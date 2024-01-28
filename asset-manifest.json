@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Resturant-Website/static/css/main.9a8aad03.css",
-    "main.js": "/React-Resturant-Website/static/js/main.7532b766.js",
+    "main.css": "/React-Resturant-Website/static/css/main.85eaa80d.css",
+    "main.js": "/React-Resturant-Website/static/js/main.bfb54fcc.js",
     "static/js/787.1937f22b.chunk.js": "/React-Resturant-Website/static/js/787.1937f22b.chunk.js",
     "static/media/sicilianaPizza.png": "/React-Resturant-Website/static/media/sicilianaPizza.74d92c8ddde49c641346.png",
     "static/media/pasta.png": "/React-Resturant-Website/static/media/pasta.cbdf90364378ebed6a7b.png",
@@ -36,12 +36,12 @@
     "static/media/chocolatecakeDessert.png": "/React-Resturant-Website/static/media/chocolatecakeDessert.0ccfaa3abdde2d54da12.png",
     "static/media/quattroFromagePizza.png": "/React-Resturant-Website/static/media/quattroFromagePizza.21d474d46a47d6703f89.png",
     "index.html": "/React-Resturant-Website/index.html",
-    "main.9a8aad03.css.map": "/React-Resturant-Website/static/css/main.9a8aad03.css.map",
-    "main.7532b766.js.map": "/React-Resturant-Website/static/js/main.7532b766.js.map",
+    "main.85eaa80d.css.map": "/React-Resturant-Website/static/css/main.85eaa80d.css.map",
+    "main.bfb54fcc.js.map": "/React-Resturant-Website/static/js/main.bfb54fcc.js.map",
     "787.1937f22b.chunk.js.map": "/React-Resturant-Website/static/js/787.1937f22b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a8aad03.css",
-    "static/js/main.7532b766.js"
+    "static/css/main.85eaa80d.css",
+    "static/js/main.bfb54fcc.js"
   ]
 }
