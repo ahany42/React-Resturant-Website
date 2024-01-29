@@ -365,15 +365,22 @@
   }
   .react-calendar{
     margin-top: 5em;
-    width:40em !important;
+    width:25em !important;
     height: 20em !important;
   }
   .react-calendar__month-view__weekdays{
-    color:rgb(31, 30, 30);
+    color:rgb(56, 54, 54);
+   
   }
   .react-calendar__navigation button{
     font-size:1.2em;
     font-weight: 600;
+  }
+  .react-calendar__month-view__days__day--weekend {
+   font-weight: 600 !important;
+  }
+  .react-calendar__month-view__days{
+    font-weight: 600 !important;
   }
  @media (max-width:280px){
     .name{
@@ -453,6 +460,11 @@
    .PlateCardContainer{
    margin-right: 0em;
    }
+   .react-calendar{
+    margin-top: 5em;
+    width:100%!important;
+    height: 20em !important;
+  }
 }
 @media (max-width:992px){
     .navBarText {
