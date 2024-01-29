@@ -382,11 +382,21 @@
   .react-calendar__month-view__days{
     font-weight: 600 !important;
   }
+  .react-calendar__tile--now{
+    background: #70bee2 !important;
+  }
  @media (max-width:280px){
     .name{
         text-align: center;
     }
    
+ }
+ @media (max-width:450px){
+    .react-calendar{
+        margin-top: 5em;
+        width:98%!important;
+        height: 20em !important;
+      }
  }
 @media (max-width: 650px) {
   
@@ -460,11 +470,7 @@
    .PlateCardContainer{
    margin-right: 0em;
    }
-   .react-calendar{
-    margin-top: 5em;
-    width:100%!important;
-    height: 20em !important;
-  }
+
 }
 @media (max-width:992px){
     .navBarText {
