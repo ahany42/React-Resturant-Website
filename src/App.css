@@ -359,6 +359,22 @@
     font-size: 1em;
     border-radius: 0;
   }
+  .calendarContainer{
+    justify-content: center;
+    display: flex;
+  }
+  .react-calendar{
+    margin-top: 5em;
+    width:40em !important;
+    height: 20em !important;
+  }
+  .react-calendar__month-view__weekdays{
+    color:rgb(31, 30, 30);
+  }
+  .react-calendar__navigation button{
+    font-size:1.2em;
+    font-weight: 600;
+  }
  @media (max-width:280px){
     .name{
         text-align: center;
