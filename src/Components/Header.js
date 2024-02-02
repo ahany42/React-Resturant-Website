@@ -24,9 +24,10 @@ function NavBarText({text}){
 
 function NavBar(){
   const [show,setShow]=useState(false);
-      return <div>
-      
+      return <div className="NavBar">
+     
       <TiThMenu className="Menuicon" onClick={()=>setShow(!show)}/>
+      
      <div className="navBarContainer" >
      {show && <div className="mobilenav">
       <MobileNavBar/>

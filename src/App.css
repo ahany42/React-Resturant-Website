@@ -23,8 +23,9 @@
     position:fixed;
     width:100%;
     z-index: 999;
-  
+    
 }
+
 .MobileNavicon{
     display: none;
 }
@@ -44,7 +45,7 @@
     display: flex;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    margin-top: 2em;
+    margin-top: 3.5em;
     width:100%;
     background-color: rgb(219, 218, 218);
     z-index: 999;
@@ -70,6 +71,9 @@
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+}
+.NavBar{
+    background-color: #000000;
 }
 .MobileNavBarContainer{
     display: none;
@@ -496,10 +500,12 @@
     
     }
     .Menuicon{
-        display: flex;
-        margin:0.5em;
+        display: block;  
         font-size: 1.5em;
+        color:#ffffff;
+    
        }
+     
     .inputBox_container {
         display: flex;
         flex-direction: row;
@@ -518,7 +524,7 @@
       .MobileCarouselContainer{
         display: flex;
         flex-direction: column;
-        
+         
       }
       .MobileCarouselImgContainer{
       display: flex;
