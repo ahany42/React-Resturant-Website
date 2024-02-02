@@ -477,7 +477,7 @@
         display: none;
     }
     .MobileNavBarContainer{
-     /* display:flex; */
+     display:flex;
      flex-direction: column;
      z-index: 999;
      position:fixed;
@@ -489,6 +489,7 @@
      font-weight: 600;
      font-size: 1em;
      font-family: 'Poppins', sans-serif;
+     transition: 3s all;
     
     }
     .Menuicon{
