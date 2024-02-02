@@ -1,7 +1,6 @@
 import logo from '../assets/logo.png';
 import { TiThMenu } from "react-icons/ti";
-var isclicked=false;
-var displaymenubar;
+import { useState } from 'react';
 function Logo(){
 return <img src={logo} className="logo"/>
 }
@@ -10,8 +9,9 @@ function Title(){
 }
 
 function Header(){
+  
   return <div className="headerContainer">
-    <NavBar display={isclicked}/>
+    <NavBar/>
    
   <div className="header">
 
@@ -23,20 +23,15 @@ function NavBarText({text}){
 }
 
 function NavBar(){
-  if(isclicked)
-  {
-    displaymenubar="flex";
-  }
-  else{
-    displaymenubar="none";
-  }
+  const [show,setShow]=useState(false);
       return <div>
       
-      <TiThMenu className="Menuicon" onClick={Clicktoggle}/>
+      <TiThMenu className="Menuicon" onClick={()=>setShow(!show)}/>
      <div className="navBarContainer" >
-      <div style={{display:displaymenubar}}>
+     {show && <div className="mobilenav">
       <MobileNavBar/>
-      </div>
+      </div>}
+     
       <NavBarText text="Home"/>
       <NavBarText text="Menu" />
       <NavBarText text="Reserve" />
@@ -45,11 +40,7 @@ function NavBar(){
       </div>
     
 }
-function Clicktoggle(){
-  isclicked=!isclicked;
-  console.log(isclicked);
-  
-}
+
 function MobileNavBar(){
   return <div className="MobileNavBarContainer">
     <a>Home</a>

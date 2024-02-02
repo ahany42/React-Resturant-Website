@@ -13,9 +13,10 @@ export default  function App() {
     <div className="App">
 
     <Header /> 
-    <ReservePage />
-     {/* <MenuPage /> */}
-         
+    {/* <ReservePage />
+     <MenuPage /> */}
+         {/* <AboutUsPage /> */}
+         <HomePage/>
     </div>
   );
     

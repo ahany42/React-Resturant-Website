@@ -74,6 +74,9 @@
 .MobileNavBarContainer{
     display: none;
 }
+.mobilenav{
+    width:100%;
+}
 .mainsection{
     
     justify-content: center;
